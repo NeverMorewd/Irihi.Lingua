@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="12.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <!-- Reference the generator project; PrivateAssets="all" prevents it from flowing as a package dependency -->
     <ProjectReference Include="..\Irihi.Lingua.Generator\Irihi.Lingua.Generator.csproj"
                       PrivateAssets="all"

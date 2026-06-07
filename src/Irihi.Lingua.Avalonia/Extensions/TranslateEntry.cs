@@ -1,6 +1,6 @@
 ﻿using Avalonia.Data;
 
-namespace Irihi.Lingua.Extensions;
+namespace Irihi.Lingua.Avalonia.Extensions;
 
 public class TranslateEntry
 {

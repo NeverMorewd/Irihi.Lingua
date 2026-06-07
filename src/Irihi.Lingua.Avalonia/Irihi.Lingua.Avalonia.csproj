@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	<PackageId>Irihi.Lingua</PackageId>
+	<Version>$(LinguaVersion)</Version>
+	<Description>Source generator package for generating i18n facilities for Avalonia projects from .resx files.</Description>
+	<PackageTags>source-generator;i18n;avalonia;resx</PackageTags>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>irihi.png</PackageIcon>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\..\irihi.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="12.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Irihi.Lingua.Core\Irihi.Lingua.Core.csproj" />
+	</ItemGroup>
+</Project>

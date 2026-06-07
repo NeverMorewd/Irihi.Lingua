@@ -1,7 +1,7 @@
-using Avalonia;
+﻿using Avalonia;
 using Avalonia.Markup.Xaml;
 
-namespace Irihi.Lingua.Extensions;
+namespace Irihi.Lingua.Avalonia.Extensions;
 
 public sealed class TranslateExtension : MarkupExtension
 {

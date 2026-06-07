@@ -1,5 +1,2 @@
-using System.Runtime.CompilerServices;
-using Avalonia.Metadata;
-
-[assembly: XmlnsDefinition("https://github.com/avaloniaui", "Irihi.Lingua.Extensions")]
+﻿using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("Irihi.Lingua.Core.Tests")]

@@ -1,4 +1,4 @@
-using System.Globalization;
+﻿using System.Globalization;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Data;
@@ -6,7 +6,7 @@ using Avalonia.Headless.XUnit;
 using Avalonia.Threading;
 using Irihi.Lingua.Avalonia.Tests.ViewModels;
 using Irihi.Lingua.Avalonia.Tests.Views;
-using Irihi.Lingua.Extensions;
+using Irihi.Lingua.Avalonia.Extensions;
 using Xunit;
 
 namespace Irihi.Lingua.Avalonia.Tests;

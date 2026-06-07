@@ -2,9 +2,9 @@
 using Avalonia;
 using Avalonia.Data.Converters;
 
-namespace Irihi.Lingua.Extensions;
+namespace Irihi.Lingua.Avalonia.Extensions;
 
-public sealed class FormatTranslateConverter: IMultiValueConverter
+public sealed class FormatTranslateConverter : IMultiValueConverter
 {
     public object? Convert(IList<object?> values, Type targetType, object? parameter, CultureInfo culture)
     {

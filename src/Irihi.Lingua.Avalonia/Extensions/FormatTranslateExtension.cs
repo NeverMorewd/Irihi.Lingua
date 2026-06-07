@@ -4,7 +4,7 @@ using Avalonia.Data.Converters;
 using Avalonia.Markup.Xaml;
 using Avalonia.Metadata;
 
-namespace Irihi.Lingua.Extensions;
+namespace Irihi.Lingua.Avalonia.Extensions;
 
 public sealed class FormatTranslateExtension : MarkupExtension
 {

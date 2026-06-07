@@ -1,6 +1,6 @@
-using System.Globalization;
+﻿using System.Globalization;
 using Avalonia;
-using Irihi.Lingua.Extensions;
+using Irihi.Lingua.Avalonia.Extensions;
 using Xunit;
 
 namespace Irihi.Lingua.Avalonia.Tests;
