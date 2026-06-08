@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-	<PackageId>Irihi.Lingua</PackageId>
+	<PackageId>Irihi.Lingua.Avalonia</PackageId>
 	<Version>$(LinguaVersion)</Version>
 	<Description>Source generator package for generating i18n facilities for Avalonia projects from .resx files.</Description>
 	<PackageTags>source-generator;i18n;avalonia;resx</PackageTags>
@@ -22,7 +22,6 @@
 	<ItemGroup>
 		<PackageReference Include="Avalonia" Version="12.0.3" />
 	</ItemGroup>
-
 	<ItemGroup>
 	  <ProjectReference Include="..\Irihi.Lingua.Core\Irihi.Lingua.Core.csproj" />
 	</ItemGroup>
